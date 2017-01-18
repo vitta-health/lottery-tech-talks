@@ -110,6 +110,9 @@
         'Flávio'
     ];
 
+    palestrantes = shuffle(palestrantes);
+    palestrantes = shuffle(palestrantes);
+
     function setCounter(i) {
         $("#counter-text").html(i);
     }
