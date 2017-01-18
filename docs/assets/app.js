@@ -48,7 +48,6 @@
             if (circs[i].curve > 0) circs[i].deg = circs[i].deg + 2;
             else                    circs[i].deg = circs[i].deg - 2;
 
-
             // Progress timer for particle
             circs[i].time = circs[i].time - 1;
 
@@ -57,6 +56,7 @@
             else circs[i].vel = circs[i].vel - .05;
 
         }
+
         timer = setTimeout(moveIt, 60);
     }
 
@@ -127,10 +127,11 @@
 
     counter = 0;
     y = 0;
+
     setInterval(function() {
         setCounter(counter++);
 
-        if(y++ % 30 == 0){
+        if(y++ % 20 == 0){
             palestrante = palestrantes.shift();
 
             if(palestrante != undefined) {
