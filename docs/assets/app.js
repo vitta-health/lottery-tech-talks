@@ -130,7 +130,7 @@
     setInterval(function() {
         setCounter(counter++);
 
-        if(y++ % 40 == 0){
+        if(y++ % 30 == 0){
             palestrante = palestrantes.shift();
 
             if(palestrante != undefined) {
