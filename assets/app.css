@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #1F202A;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.panel {
+    position: fixed;
+    background: RGBA(255, 255, 255, 0.3);
+
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#list {
+    height: 335px;
+    width: 350px;
+
+    top: 30%;
+    right: 54%;
+
+    font-size: 45px;
+}
+
+#counter-box {
+    height: 80px;
+    width: 250px;
+
+    top: 30%;
+    left: 50%;
+
+    font-size: 45px;
+}
+
+#counter-text {
+    margin-top: 15px
+}
+
+#current-box {
+    height: 200px;
+    width: 250px;
+
+    top: 50%;
+    left: 50%;
+
+    font-size: 45px;
+}
+
+#current-text {
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+#logo {
+    width: 300px;
+    position: fixed;
+    top: 10%;
+    left: 36%;
+}
